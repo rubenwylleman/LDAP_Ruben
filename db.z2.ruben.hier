@@ -1,0 +1,25 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	3600
+@	IN	SOA	dns-z2.z2.ruben.hier. admin.z2.ruben.hier. (
+			     15		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns-z2.z2.ruben.hier.
+@	IN	A	192.168.12.100
+
+dns-z2	IN	A	192.168.12.100
+in	IN 	A	192.168.12.101
+cheese	IN	A	192.168.12.102
+out	IN	A	192.168.12.103
+
+squirrelmail	IN	CNAME	dns-z2
+ldap	IN	CNAME	dns-z2
+www	IN	CNAME	dns-z2
+
+@	IN	MX	10 in
+

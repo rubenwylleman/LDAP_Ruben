@@ -1,0 +1,450 @@
+dn: dc=z2,dc=ruben,dc=hier
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: ruben
+dc: z2
+structuralObjectClass: organization
+entryUUID: d5865ddc-d141-1038-9eba-39395443b9c4
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302141845Z
+entryCSN: 20190302141845.622795Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302141845Z
+
+dn: cn=admin,dc=z2,dc=ruben,dc=hier
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e1NTSEF9N3V4ckdJVXhDWUNob3N1akNwclZkczY0UENjQ0Zva1I=
+structuralObjectClass: organizationalRole
+entryUUID: d5892f08-d141-1038-9ebb-39395443b9c4
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302141845Z
+entryCSN: 20190302141845.641350Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302141845Z
+
+dn: ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: organizationalUnit
+ou: People
+structuralObjectClass: organizationalUnit
+entryUUID: 07c66bf8-d14b-1038-9224-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302152435Z
+entryCSN: 20190302152435.399301Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302152435Z
+
+dn: ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: organizationalUnit
+ou: Groups
+structuralObjectClass: organizationalUnit
+entryUUID: 07c85954-d14b-1038-9225-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302152435Z
+entryCSN: 20190302152435.411960Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302152435Z
+
+dn: ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: organizationalUnit
+ou: Departments
+structuralObjectClass: organizationalUnit
+entryUUID: 07c95d72-d14b-1038-9226-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302152435Z
+entryCSN: 20190302152435.418617Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302152435Z
+
+dn: uid=mario,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mario
+sn: Een
+givenName: Mario
+cn: Mario Een
+displayName: Mario Een
+uidNumber: 10000
+userPassword:: Z2VoZWlt
+gecos: Mario Een
+loginShell: /bin/bash
+homeDirectory: /home/mario
+mail: mario@z2.ruben.hier
+mobile: 0477999999
+structuralObjectClass: inetOrgPerson
+entryUUID: 5febb36e-d14c-1038-9227-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10000
+entryCSN: 20190303193510.311013Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=david,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: david
+sn: Twee
+givenName: David
+cn: David Twee
+displayName: David Twee
+uidNumber: 10001
+userPassword:: Z2VoZWlt
+gecos: David Twee
+loginShell: /bin/bash
+homeDirectory: /home/david
+mail: david@z2.ruben.hier
+mobile: 0477999998
+structuralObjectClass: inetOrgPerson
+entryUUID: 5feed79c-d14c-1038-9228-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10001
+entryCSN: 20190303193510.319252Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=emma,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: emma
+sn: Drie
+givenName: Emma
+cn: Emma Drie
+displayName: Emma Drie
+uidNumber: 10002
+userPassword:: Z2VoZWlt
+gecos: Emma Drie
+loginShell: /bin/bash
+homeDirectory: /home/emma
+mail: emma@z2.ruben.hier
+mobile: 0477999997
+structuralObjectClass: inetOrgPerson
+entryUUID: 5ff263c6-d14c-1038-9229-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10002
+entryCSN: 20190303193510.330280Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=alain,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alain
+sn: Vier
+givenName: Alain
+cn: Alain Vier
+displayName: Alain Vier
+uidNumber: 10003
+userPassword:: Z2VoZWlt
+gecos: Alain Vier
+loginShell: /bin/bash
+homeDirectory: /home/alain
+mail: alain@z2.ruben.hier
+mobile: 0477989999
+structuralObjectClass: inetOrgPerson
+entryUUID: 5ff81e10-d14c-1038-922a-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10003
+entryCSN: 20190303193510.342052Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=tania,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tania
+sn: Vijf
+givenName: Tanja
+cn: Tanja Vijf
+displayName: Tanja Vijf
+uidNumber: 10004
+userPassword:: Z2VoZWlt
+gecos: Tanja Vijf
+loginShell: /bin/bash
+homeDirectory: /home/tanja
+mail: tanja@z2.ruben.hier
+mobile: 0477996999
+structuralObjectClass: inetOrgPerson
+entryUUID: 5ffe1ad6-d14c-1038-922b-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10004
+entryCSN: 20190303193510.362303Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=gert,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: gert
+sn: Zes
+givenName: Gert
+cn: Gert Zes
+displayName: Gert Zes
+uidNumber: 10005
+userPassword:: Z2VoZWlt
+gecos: Gert Zes
+loginShell: /bin/bash
+homeDirectory: /home/gert
+mail: gert@z2.ruben.hier
+mobile: 0477999259
+structuralObjectClass: inetOrgPerson
+entryUUID: 60003f96-d14c-1038-922c-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10005
+entryCSN: 20190303193510.369635Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=tamara,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tamara
+sn: Zeven
+givenName: Tamara
+cn: Tamara Zeven
+displayName: Tamara Zeven
+uidNumber: 10006
+userPassword:: Z2VoZWlt
+gecos: Tamara Zeven
+loginShell: /bin/bash
+homeDirectory: /home/tamara
+mail: tamara@z2.ruben.hier
+mobile: 0477999559
+structuralObjectClass: inetOrgPerson
+entryUUID: 6005b192-d14c-1038-922d-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10006
+entryCSN: 20190303193510.378234Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=filip,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: filip
+sn: Acht
+givenName: Filip
+cn: Filip Acht
+displayName: Filip Acht
+uidNumber: 10007
+userPassword:: Z2VoZWlt
+gecos: Filip Acht
+loginShell: /bin/bash
+homeDirectory: /home/filip
+mail: filip@z2.ruben.hier
+mobile: 0477999359
+structuralObjectClass: inetOrgPerson
+entryUUID: 60092b10-d14c-1038-922e-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10007
+entryCSN: 20190303193510.384242Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: uid=francine,ou=People,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: francine
+sn: Negen
+givenName: Francine
+cn: Francine Negen
+displayName: Francine Negen
+uidNumber: 10008
+userPassword:: Z2VoZWlt
+gecos: Francine Negen
+loginShell: /bin/bash
+homeDirectory: /home/francine
+mail: francine@z2.ruben.hier
+mobile: 047799997459
+structuralObjectClass: inetOrgPerson
+entryUUID: 600c2266-d14c-1038-922f-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302153412Z
+gidNumber: 10008
+entryCSN: 20190303193510.390122Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303193510Z
+
+dn: cn=Directie,ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: posixGroup
+cn: Directie
+gidNumber: 5000
+memberUid: mario
+structuralObjectClass: posixGroup
+entryUUID: e3f158bc-d160-1038-9230-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302180104Z
+entryCSN: 20190302180104.210715Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302180104Z
+
+dn: cn=Docenten,ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: posixGroup
+cn: Docenten
+gidNumber: 5001
+memberUid: david
+memberUid: alain
+structuralObjectClass: posixGroup
+entryUUID: e3f8359c-d160-1038-9231-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302180104Z
+entryCSN: 20190302180104.255691Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302180104Z
+
+dn: cn=Secretariaat,ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: posixGroup
+cn: Secretariaat
+gidNumber: 5002
+memberUid: alain
+memberUid: tania
+structuralObjectClass: posixGroup
+entryUUID: e3fa86bc-d160-1038-9232-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302180104Z
+entryCSN: 20190302180104.270876Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302180104Z
+
+dn: cn=Studenten,ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: posixGroup
+cn: Studenten
+gidNumber: 5003
+memberUid: gert
+memberUid: filip
+memberUid: tamara
+memberUid: francine
+memberUid: emma
+structuralObjectClass: posixGroup
+entryUUID: e3fed3fc-d160-1038-9233-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302180104Z
+entryCSN: 20190302180104.299068Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302180104Z
+
+dn: cn=Support,ou=Groups,dc=z2,dc=ruben,dc=hier
+objectClass: posixGroup
+cn: Support
+gidNumber: 5004
+memberUid: francine
+structuralObjectClass: posixGroup
+entryUUID: e402573e-d160-1038-9234-f9f95683bfcc
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190302180104Z
+entryCSN: 20190302180104.322088Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190302180104Z
+
+dn: cn=Bedrijfsbeheer,ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: groupOfUniqueNames
+cn: Bedrijfsbeheer
+uniqueMember: uid=gert,ou=People,dc=z2,dc=ruben,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: 9f3a5342-d23a-1038-975d-e161e15c863d
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190303195939Z
+entryCSN: 20190303195939.213241Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303195939Z
+
+dn: cn=Informatica,ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: groupOfUniqueNames
+cn: Informatica
+uniqueMember: uid=emma,ou=People,dc=z2,dc=ruben,dc=hier
+uniqueMember: uid=filip,ou=People,dc=z2,dc=ruben,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: 9f3defa2-d23a-1038-975e-e161e15c863d
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190303195939Z
+entryCSN: 20190303195939.236919Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303195939Z
+
+dn: cn=Koken,ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: groupOfUniqueNames
+cn: Koken
+uniqueMember: uid=francine,ou=People,dc=z2,dc=ruben,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: 9f404d42-d23a-1038-975f-e161e15c863d
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190303195939Z
+entryCSN: 20190303195939.252423Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303195939Z
+
+dn: ou=Talen,ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: organizationalUnit
+ou: Talen
+structuralObjectClass: organizationalUnit
+entryUUID: 273d2d6e-d23b-1038-9761-e161e15c863d
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190303200327Z
+entryCSN: 20190303200327.402086Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303200327Z
+
+dn: cn=Frans,ou=Talen,ou=Departments,dc=z2,dc=ruben,dc=hier
+objectClass: groupOfUniqueNames
+cn: Frans
+uniqueMember: uid=tamara,ou=People,dc=z2,dc=ruben,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: 477ea990-d23b-1038-9762-e161e15c863d
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190303200421Z
+entryCSN: 20190303200421.518339Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190303200421Z
+
+dn: ou=systemusers,dc=z2,dc=ruben,dc=hier
+objectClass: organizationalUnit
+ou: systemusers
+structuralObjectClass: organizationalUnit
+entryUUID: e64649be-d887-1038-8b9f-a51d5fe5d104
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190311202756Z
+entryCSN: 20190311202756.634692Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190311202756Z
+
+dn: uid=apache,ou=systemusers,dc=z2,dc=ruben,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: apache
+sn: apache
+givenName: apache
+cn: apache
+displayName: apache
+uidNumber: 20001
+gidNumber: 6001
+userPassword:: Z2VoZWlt
+gecos: apache
+homeDirectory: /home/apache
+structuralObjectClass: inetOrgPerson
+entryUUID: 1c1290ca-d888-1038-8ba1-a51d5fe5d104
+creatorsName: cn=admin,dc=z2,dc=ruben,dc=hier
+createTimestamp: 20190311202926Z
+entryCSN: 20190311202926.892729Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=ruben,dc=hier
+modifyTimestamp: 20190311202926Z
+
